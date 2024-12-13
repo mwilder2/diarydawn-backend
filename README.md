@@ -1,73 +1,80 @@
-<p align="center">
-  <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo-small.svg" width="200" alt="Nest Logo" /></a>
-</p>
+# Diary Dawn Backend
 
-[circleci-image]: https://img.shields.io/circleci/build/github/nestjs/nest/master?token=abc123def456
-[circleci-url]: https://circleci.com/gh/nestjs/nest
+This is the backend service for Diary Dawn, a personal diary platform. Built with Nest.js, it provides the API and business logic that powers the Diary Dawn application. This backend integrates with PostgreSQL for data storage, Redis for caching and messaging, and Docker for containerized deployment.
 
-  <p align="center">A progressive <a href="http://nodejs.org" target="_blank">Node.js</a> framework for building efficient and scalable server-side applications.</p>
-    <p align="center">
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/v/@nestjs/core.svg" alt="NPM Version" /></a>
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/l/@nestjs/core.svg" alt="Package License" /></a>
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/dm/@nestjs/common.svg" alt="NPM Downloads" /></a>
-<a href="https://circleci.com/gh/nestjs/nest" target="_blank"><img src="https://img.shields.io/circleci/build/github/nestjs/nest/master" alt="CircleCI" /></a>
-<a href="https://coveralls.io/github/nestjs/nest?branch=master" target="_blank"><img src="https://coveralls.io/repos/github/nestjs/nest/badge.svg?branch=master#9" alt="Coverage" /></a>
-<a href="https://discord.gg/G7Qnnhy" target="_blank"><img src="https://img.shields.io/badge/discord-online-brightgreen.svg" alt="Discord"/></a>
-<a href="https://opencollective.com/nest#backer" target="_blank"><img src="https://opencollective.com/nest/backers/badge.svg" alt="Backers on Open Collective" /></a>
-<a href="https://opencollective.com/nest#sponsor" target="_blank"><img src="https://opencollective.com/nest/sponsors/badge.svg" alt="Sponsors on Open Collective" /></a>
-  <a href="https://paypal.me/kamilmysliwiec" target="_blank"><img src="https://img.shields.io/badge/Donate-PayPal-ff3f59.svg"/></a>
-    <a href="https://opencollective.com/nest#sponsor"  target="_blank"><img src="https://img.shields.io/badge/Support%20us-Open%20Collective-41B883.svg" alt="Support us"></a>
-  <a href="https://twitter.com/nestframework" target="_blank"><img src="https://img.shields.io/twitter/follow/nestframework.svg?style=social&label=Follow"></a>
-</p>
-  <!--[![Backers on Open Collective](https://opencollective.com/nest/backers/badge.svg)](https://opencollective.com/nest#backer)
-  [![Sponsors on Open Collective](https://opencollective.com/nest/sponsors/badge.svg)](https://opencollective.com/nest#sponsor)-->
+## Features
+- RESTful API endpoints for managing users, diary entries, and other resources
+- Integration with PostgreSQL via TypeORM
+- Redis for caching and messaging
+- Scalable, containerized deployment using Docker
 
-## Description
+## Prerequisites
+Before you begin, ensure you have the following installed on your machine:
+- [Node.js](https://nodejs.org/) (LTS version recommended)
+- [Nest CLI](https://docs.nestjs.com/cli/overview) (globally installed)
+- [PostgreSQL](https://www.postgresql.org/)
+- [Docker](https://www.docker.com/) (optional, for containerized deployment)
 
-[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
+## Getting Started
 
-## Installation
+### Installation
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/mwilder2/diarydawn-backend
+   cd diarydawn-backend
 
-```bash
-$ npm install
-```
+2. install dependencies:
+npm install
 
-## Running the app
+Configuration
+1. Create a .env file in the root directory and configure the environment variables. Example:
+DATABASE_HOST=localhost
+DATABASE_PORT=5432
+DATABASE_USER=your_user
+DATABASE_PASSWORD=your_password
+DATABASE_NAME=diary_dawn
+REDIS_HOST=localhost
+REDIS_PORT=6379
 
-```bash
-# development
-$ npm run start
+2. Ensure that your PostgreSQL and Redis instances are running locally or via Docker.
 
-# watch mode
-$ npm run start:dev
+Running Locally
+1. Start the application:
 
-# production mode
-$ npm run start:prod
-```
+npm run start
+The server will run at http://localhost:3000/ by default.
 
-## Test
+2. Alternatively, use the development mode:
 
-```bash
-# unit tests
-$ npm run test
+npm run start:dev
 
-# e2e tests
-$ npm run test:e2e
+Docker Support
+To run the backend using Docker:
+1. Build the Docker containers:
 
-# test coverage
-$ npm run test:cov
-```
+docker-compose build
 
-## Support
+2. Start the containers:
 
-Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
+docker-compose up
+The API will be accessible at http://localhost:3000/.
 
-## Stay in touch
+Database Migrations
+This project uses TypeORM for database interactions. To run migrations:
 
-- Author - [Kamil Myśliwiec](https://kamilmysliwiec.com)
-- Website - [https://nestjs.com](https://nestjs.com/)
-- Twitter - [@nestframework](https://twitter.com/nestframework)
 
-## License
+npm run typeorm migration:run
+Testing
+To run tests:
 
-Nest is [MIT licensed](LICENSE).
+
+npm run test
+About the Author
+Diary Dawn's backend was developed by Matthew Ray Wilder, combining a passion for technology with a commitment to personal growth and self-reflection.
+
+License
+This project is licensed under the MIT License.
+
+Contact
+For more information or questions, please feel free to reach out via the Diary Dawn platform or directly through the contact details provided.
+
