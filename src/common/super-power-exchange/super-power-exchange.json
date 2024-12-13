@@ -1,0 +1,98 @@
+{
+  "OCEAN": {
+    "openness": {
+      "superPower": "Visionary Insight",
+      "description": "Your high level of openness makes you a visionary, capable of seeing beyond the horizon. Your creativity and imagination are your superpowers, allowing you to explore new ideas and worlds."
+    },
+    "conscientiousness": {
+      "superPower": "Master Planner",
+      "description": "With your exceptional conscientiousness, you're the master planner. Organized, diligent, and reliable, you have the power to bring order to chaos."
+    },
+    "extraversion": {
+      "superPower": "Charismatic Leader",
+      "description": "Your extraversion shines as you engage and energize those around you. Your superpower is your charisma, leading and inspiring others with your enthusiasm."
+    },
+    "agreeableness": {
+      "superPower": "Empathic Connector",
+      "description": "Your high agreeableness turns you into an empathic connector. Understanding and harmonious, you create strong bonds and bring peace to your surroundings."
+    },
+    "neuroticism": {
+      "superPower": "Sensitive Guardian",
+      "description": "Sensitive and in tune with the environment, you sense changes and potential threats more acutely than others. Your caution is your shield, protecting you and those you care for."
+    }
+  },
+  "VARK": {
+    "visual": {
+      "superPower": "Imaginative Seer",
+      "description": "As a visual learner, you possess the superpower of imaginative sight. With vivid imagination and keen perception, you envision possibilities others miss."
+    },
+    "auditory": {
+      "superPower": "Master Communicator",
+      "description": "Your strength in auditory learning makes you a master communicator. Articulate and expressive, you convey complex ideas and inspire through your words."
+    },
+    "readWrite": {
+      "superPower": "Scholarly Scribe",
+      "description": "Your preference for reading and writing marks you as the scholarly scribe. With a way with words and a love for knowledge, you document and disseminate wisdom."
+    },
+    "kinesthetic": {
+      "superPower": "Dynamic Mover",
+      "description": "As a kinesthetic learner, your superpower is being a dynamic mover. Through action and experience, you navigate and understand the world in motion."
+    }
+  },
+  "DISC": {
+    "dominance": {
+      "superPower": "Forceful Champion",
+      "description": "Your dominant nature makes you a forceful champion. Bold and driven, you push forward, overcoming obstacles with your powerful will and determination."
+    },
+    "influence": {
+      "superPower": "Magnetic Influencer",
+      "description": "With your influential personality, you're a magnetic influencer. Persuasive and social, you draw people together and spread ideas with ease."
+    },
+    "steadiness": {
+      "superPower": "Reliable Rock",
+      "description": "Steady and calm, you're the reliable rock in any situation. Your consistency and patience provide stability and reassurance to all who depend on you."
+    },
+    "compliance": {
+      "superPower": "Strategic Thinker",
+      "description": "As a compliant individual, you're a strategic thinker. Detail-oriented and analytical, you navigate complex situations with precision and care."
+    }
+  },
+  "Gardner's Intelligences": {
+    "logicalMathematical": {
+      "superPower": "Analytical Genius",
+      "description": "Your logical-mathematical intelligence marks you as an analytical genius. With a natural affinity for reasoning and problem-solving, you decipher the world's complex patterns."
+    },
+    "linguistic": {
+      "superPower": "Word Wizard",
+      "description": "With your linguistic intelligence, you're a word wizard. Your mastery of language enables you to charm, persuade, and inform with eloquence and creativity."
+    },
+    "musical": {
+      "superPower": "Harmonic Virtuoso",
+      "description": "Your musical intelligence makes you a harmonic virtuoso. With a keen ear and rhythmic talent, you create and appreciate music that resonates with the soul."
+    },
+    "bodilyKinesthetic": {
+      "superPower": "Physical Maverick",
+      "description": "As someone with bodily-kinesthetic intelligence, you're a physical maverick. Your understanding of movement and space lets you navigate and interact with the world effortlessly."
+    },
+    "spatial": {
+      "superPower": "Imaginative Seer",
+      "description": "With spatial intelligence, you're a visionary creator. Your spatial reasoning and imagination enable you to visualize, design, and create the unseen."
+    },
+    "interpersonal": {
+      "superPower": "Social Sage",
+      "description": "Your interpersonal intelligence makes you a social sage. Intuitive and empathetic, you understand, influence, and enrich the lives of those around you."
+    },
+    "intrapersonal": {
+      "superPower": "Self-Insightful Guru",
+      "description": "Intrapersonal intelligence turns you into a self-insightful guru. With deep self-awareness and understanding, you navigate your inner world with wisdom."
+    },
+    "naturalist": {
+      "superPower": "Environmental Empath",
+      "description": "Your naturalist intelligence reveals you as an environmental empath. Connected and attuned to nature, you understand and advocate for the Earth and its inhabitants."
+    },
+    "existential": {
+      "superPower": "Philosophical Thinker",
+      "description": "With existential intelligence, you're a philosophical thinker. Contemplating life's big questions, you explore and provid insights into the human condition."
+    }
+  }
+}

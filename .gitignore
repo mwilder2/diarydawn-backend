@@ -66,3 +66,6 @@ report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
 application_log.txt
 log.txt
 node_modules
+src/common/envs/.env.development
+src/common/envs/.env.production
+src/common/envs/.env.staging
