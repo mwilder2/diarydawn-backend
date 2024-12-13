@@ -54,3 +54,15 @@ pids
 
 # Diagnostic reports (https://nodejs.org/api/report.html)
 report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
+.VSCodeCounter/2024-04-18_13-28-16/results.json
+.VSCodeCounter/2024-04-18_13-28-16/results.csv
+.VSCodeCounter/2024-04-18_13-28-16/results.md
+.VSCodeCounter/2024-04-18_13-28-16/details.md
+.VSCodeCounter/2024-04-18_13-28-16/diff-details.md
+.VSCodeCounter/2024-04-18_13-28-16/diff.csv
+.VSCodeCounter/2024-04-18_13-28-16/diff.md
+.VSCodeCounter/2024-04-18_13-28-16/diff.txt
+.VSCodeCounter/2024-04-18_13-28-16/results.txt
+application_log.txt
+log.txt
+node_modules
