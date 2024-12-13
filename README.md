@@ -78,3 +78,5 @@ This project is licensed under the MIT License.
 Contact
 For more information or questions, please feel free to reach out via the Diary Dawn platform or directly through the contact details provided.
 
+## Design
+- [UML Class Diagram](./docs/uml-class-diagram.drawio)
