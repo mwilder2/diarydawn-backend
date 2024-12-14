@@ -15,6 +15,9 @@ Before you begin, ensure you have the following installed on your machine:
 - [PostgreSQL](https://www.postgresql.org/)
 - [Docker](https://www.docker.com/) (optional, for containerized deployment)
 
+## Design
+- [UML Class Diagram](./diarydawn-uml.png)
+
 ## Getting Started
 
 ### Installation
@@ -35,6 +38,22 @@ DATABASE_PASSWORD=your_password
 DATABASE_NAME=diary_dawn
 REDIS_HOST=localhost
 REDIS_PORT=6379
+JWT_SECRET=your_jwt_secret
+JWT_RESET_TOKEN_SECRET=your_jwt_secret
+JWT_TOKEN_AUDIENCE=https://diarydawn.com
+JWT_TOKEN_ISSUER=https://diarydawn.com
+JWT_ACCESS_TOKEN_TTL=3600
+JWT_REFRESH_TOKEN_TTL=86400
+PORT=your_port
+ORIGIN=https://diarydawn.com
+OPENAI_API_KEY=your_openai_key
+TEMP_SYSTEM_PROMPT="Your prompt for ChatGPT goes here"
+BASE_URL=https://diarydawn.com
+AWS_REGION=us-east-1
+AWS_ACCESS_KEY_ID=your_aws_id
+AWS_SECRET_ACCESS_KEY=your_aws_secret
+GOOGLE_CLIENT_ID=your_google_client_id
+GOOGLE_CLIENT_SECRET=your_google_secret
 
 2. Ensure that your PostgreSQL and Redis instances are running locally or via Docker.
 
@@ -77,6 +96,3 @@ This project is licensed under the MIT License.
 
 Contact
 For more information or questions, please feel free to reach out via the Diary Dawn platform or directly through the contact details provided.
-
-## Design
-- [UML Class Diagram](./diarydawn-uml.png)
