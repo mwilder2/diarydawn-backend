@@ -31,50 +31,29 @@ npm install
 
 Configuration
 1. Create a .env file in the root directory and configure the environment variables. Example:
-DATABASE_HOST=localhost
 
-DATABASE_PORT=5432
-
-DATABASE_USER=your_user
-
-DATABASE_PASSWORD=your_password
-
-DATABASE_NAME=diary_dawn
-
-REDIS_HOST=localhost
-
-REDIS_PORT=6379
-
-JWT_SECRET=your_jwt_secret
-
-JWT_RESET_TOKEN_SECRET=your_jwt_secret
-
-
-JWT_TOKEN_ISSUER=https://diarydawn.com
-
-JWT_ACCESS_TOKEN_TTL=3600
-
-JWT_REFRESH_TOKEN_TTL=86400
-
-PORT=your_port
-
-ORIGIN=https://diarydawn.com
-
-OPENAI_API_KEY=your_openai_key
-
-TEMP_SYSTEM_PROMPT="Your prompt for ChatGPT goes here"
-
-BASE_URL=https://diarydawn.com
-
-AWS_REGION=us-east-1
-
-AWS_ACCESS_KEY_ID=your_aws_id
-
-AWS_SECRET_ACCESS_KEY=your_aws_secret
-
-GOOGLE_CLIENT_ID=your_google_client_id
-
-GOOGLE_CLIENT_SECRET=your_google_secret
+- DATABASE_HOST=localhost
+- DATABASE_PORT=5432
+- DATABASE_USER=your_user
+- DATABASE_PASSWORD=your_password
+- DATABASE_NAME=diary_dawn
+- REDIS_HOST=localhost
+- REDIS_PORT=6379
+- JWT_SECRET=your_jwt_secret
+- JWT_RESET_TOKEN_SECRET=your_jwt_secret
+- JWT_TOKEN_ISSUER=https://diarydawn.com
+- JWT_ACCESS_TOKEN_TTL=3600
+- JWT_REFRESH_TOKEN_TTL=86400
+- PORT=your_port
+- ORIGIN=https://diarydawn.com
+- OPENAI_API_KEY=your_openai_key
+- TEMP_SYSTEM_PROMPT="Your prompt for ChatGPT goes here"
+- BASE_URL=https://diarydawn.com
+- AWS_REGION=us-east-1
+- AWS_ACCESS_KEY_ID=your_aws_id
+- AWS_SECRET_ACCESS_KEY=your_aws_secret
+- GOOGLE_CLIENT_ID=your_google_client_id
+- GOOGLE_CLIENT_SECRET=your_google_secret
 
 2. Ensure that your PostgreSQL and Redis instances are running locally or via Docker.
 
