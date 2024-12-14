@@ -79,4 +79,4 @@ Contact
 For more information or questions, please feel free to reach out via the Diary Dawn platform or directly through the contact details provided.
 
 ## Design
-- [UML Class Diagram](./docs/uml-class-diagram.drawio)
+- [UML Class Diagram](/https://github.com/mwilder2/diarydawn-backend/wiki/Diary-Dawn-UML-Diagram)
